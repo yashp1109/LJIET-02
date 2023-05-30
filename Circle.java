@@ -25,7 +25,7 @@ public class Circle {
   public static void main(String[] args) {
     // TODO Auto-generated method stub
 
-    Circle1 c1 = new Circle1();
+    Circle c1 = new Circle();
     c1.setRadius();
     c1.findArea();
     c1.findCircumference();
