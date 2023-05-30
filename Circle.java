@@ -12,12 +12,12 @@ public class Circle {
     r = sc.nextInt();
   }
 
-  void calArea() {
+  void findArea() {
     double area = pi * r * r;
     System.out.println("area is:" + area);
   }
 
-  void calCircumference() {
+  void findCircumference() {
     double circumference = 2 * pi * r;
     System.out.println("Circumference is:" + circumference);
   }
@@ -27,7 +27,7 @@ public class Circle {
 
     Circle1 c1 = new Circle1();
     c1.setRadius();
-    c1.calArea();
-    c1.calCircumference();
+    c1.findArea();
+    c1.findCircumference();
   }
 }
